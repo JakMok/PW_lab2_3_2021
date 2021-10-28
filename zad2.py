@@ -2,11 +2,11 @@
 #Uwaga: załóż, że użytkownik podaje poprawne wartości (tzn. 0 < k <= długość listy).
 
 
-def kth(k):
-    n = int(input("Enter the number: "))
+def kth(n):
+    k = int(input("Enter the number: "))
     elemens = list(range(1, n+1))
     return elemens[-k]
 
-print(kth(3))
+print(kth(10))
 
 
